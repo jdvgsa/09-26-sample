@@ -1,13 +1,41 @@
 body {
-  font-size: 128px;
-  margin: 0;
+  font-size: 28px;
+  margin: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  font-size: 70px;
 }
 
 header {
-color: rgba(95, 158, 160, 0.829);
+  /* padding: 4.5rem; */
+  /* text-align: center; */
+  /* color: aqua; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+background-color: rgba(95, 158, 160, 0.829);
+background-image: url(https://fastly.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU);
+background-repeat: no-repeat;
+background-size: cover;
+
+height: 100vh;
+/* text-decoration: none; */
+
+font-size: 128px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 } 
 
 p {
   font-family: 'Nabla', Arial, Helvetica, cursive;
-  font-size: clamp(64px, 10vw, 128px);
+  /* font-size: clamp(64px, 10vw, 128px); */
+  margin: 0;
+
+  padding-bottom: 25vh;
+}
+
+main {
+  font-family: 'Courier New', Courier, monospace;
 }
